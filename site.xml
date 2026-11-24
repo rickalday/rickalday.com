@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================
+     SITE.XML  -  edit this single file to change the whole site.
+     Colors accept any CSS color (#hex, rgb(), names).
+     linkColor = inactive menu/links, linkHoverColor = hover/active.
+     ============================================================ -->
+<site>
+  <settings>
+    <title>Rick Alday</title>
+    <description>Visual Artist</description>
+    <backgroundColor>#f4f3ef</backgroundColor>
+    <textColor>#0d0d0b</textColor>
+    <linkColor>#6b6b67</linkColor>
+    <linkHoverColor>#0d0d0b</linkHoverColor>
+    <accentColor>#ff7002</accentColor>
+    <hoverSlideSpeed>600</hoverSlideSpeed><!-- ms between preview images on hover -->
+    <fontFamily>"Abel", sans-serif</fontFamily>
+    <displayFontFamily>"Oranienbaum", serif</displayFontFamily>
+    <defaultPage>index</defaultPage>
+  </settings>
+
+  <header>
+    <logo>Rick Alday</logo>
+    <!-- Footer social links: add, remove or reorder <link> entries. -->
+    <social>
+      <link label="Instagram" url="https://www.instagram.com/rickalday/"/>
+    </social>
+  </header>
+
+  <!-- Top menu. side="right" places an item at the right edge. -->
+  <navigation>
+    <item id="index">Index</item>
+    <item id="archive" side="right">Archive</item>
+    <item id="about" side="right">About</item>
+  </navigation>
+
+  <!-- Gallery items: <image src thumb caption/> or <video provider="youtube|vimeo" id="VIDEO_ID" caption="" [thumb=""]/> -->
+  <!-- type="projects": title list (project ids must match gallery pages). type="gallery": images. -->
+  <pages>
+    <page id="index" type="projects">
+      <project id="people" title="People"/>
+      <project id="places" title="Places"/>
+      <project id="lost-and-found" title="Lost and Found"/>
+      <project id="still-life" title="Still Life"/>
+    </page>
+    <!-- type="archive": shows every image from all gallery pages. -->
+    <page id="archive" type="archive"/>
+    <page id="people" type="gallery" title="People">
+      <image src="images/people/Angela.jpg"/>
+      <image src="images/people/Ely2.jpg"/>
+      <image src="images/people/bailarinas.jpg"/>
+      <image src="images/people/bailarines.jpg"/>
+      <image src="images/people/comiendo-taquitos.jpg"/>
+      <image src="images/people/cuate.jpg"/>
+      <image src="images/people/dancer.jpg"/>
+      <image src="images/people/elotes.jpg"/>
+      <image src="images/people/ely.jpg"/>
+      <image src="images/people/girl-by-the-window.jpg"/>
+      <image src="images/people/girl.jpg"/>
+      <image src="images/people/lazy_afternoon.jpg"/>
+      <image src="images/people/praying.jpg"/>
+    </page>
+    <page id="places" type="gallery" title="Places">
+      <image src="images/places/Acapulco-01.jpg"/>
+      <image src="images/places/Acapulco-02.jpg"/>
+      <image src="images/places/Acapulco-05.jpg"/>
+      <image src="images/places/Acapulco-sunset.jpg"/>
+      <image src="images/places/KnockLoud.jpg"/>
+      <image src="images/places/alley.jpg"/>
+      <image src="images/places/casa-amarilla.jpg"/>
+      <image src="images/places/catedral.jpg"/>
+      <image src="images/places/fachada.jpg"/>
+      <image src="images/places/finca.jpg"/>
+      <image src="images/places/firenze.jpg"/>
+      <image src="images/places/pilares.jpg"/>
+      <image src="images/places/playa.jpg"/>
+      <image src="images/places/plaza.jpg"/>
+      <image src="images/places/puebla.jpg"/>
+      <image src="images/places/train-tracks.jpg"/>
+      <image src="images/places/ventanal.jpg"/>
+    </page>
+    <page id="lost-and-found" type="gallery" title="Lost and Found">
+      <image src="images/lostandfound/Periquito.jpg"/>
+      <image src="images/lostandfound/bird.jpg"/>
+      <image src="images/lostandfound/ciruelas.jpg"/>
+      <image src="images/lostandfound/d.jpg"/>
+      <image src="images/lostandfound/doggo.jpg"/>
+      <image src="images/lostandfound/excercise.jpg"/>
+      <image src="images/lostandfound/fish.jpg"/>
+      <image src="images/lostandfound/gorditas-y-perro.jpg"/>
+      <image src="images/lostandfound/hand.jpg"/>
+      <image src="images/lostandfound/his-majesty.jpg"/>
+      <image src="images/lostandfound/kitty.jpg"/>
+      <image src="images/lostandfound/sombra.jpg"/>
+      <image src="images/lostandfound/tail.jpg"/>
+      <image src="images/lostandfound/titere.jpg"/>
+    </page>
+    <page id="still-life" type="gallery" title="Still Life">
+      <image src="images/still-life/Banca.jpg"/>
+      <image src="images/still-life/Cards.jpg"/>
+      <image src="images/still-life/Columpio.jpg"/>
+      <image src="images/still-life/DosBotellas.jpg"/>
+      <image src="images/still-life/Iamps.jpg"/>
+      <image src="images/still-life/Lunch-Time.jpg"/>
+      <image src="images/still-life/Pomegranade.jpg"/>
+      <image src="images/still-life/bumper-csr.jpg"/>
+      <image src="images/still-life/chairs.jpg"/>
+      <image src="images/still-life/cocina.jpg"/>
+      <image src="images/still-life/lily.jpg"/>
+      <image src="images/still-life/orchids.jpg"/>
+      <image src="images/still-life/pork.jpg"/>
+      <image src="images/still-life/rosa.jpg"/>
+    </page>
+    <page id="about" type="text">
+      <heading>About Me</heading>
+      <paragraph>After spending ten years behind the lens as a commercial product photographer, I decided to trade client briefs for creative freedom. Today, I create purely out of passion, merging my background in photography and graphic design to make the kind of visual art I’ve always wanted to explore.</paragraph>
+      <paragraph>A decade of commercial work taught me how to control light, obsess over tiny details, and build a clean composition from scratch. Now, I get to break those rules on my own terms. Whether I’m photographing local architecture, natural textures, or street scenes or crafting digital designs, my goal is simple: to slow down, notice the beauty in overlooked details, and share that sense of discovery with anyone viewing the work.</paragraph>
+      <paragraph>I do not sell prints or downloads online.  If you are interested in a print hit me up via email.  If you would like to receive a random, signed 4x6 print monthly via snail mail you can buy a membership via Buy Me a Coffee.</paragraph>
+      <link label="alday.ricardo@gmail.com" url="mailto:alday.ricardo@gmail.com"/>
+      <link label="Instagram" url="https://instagram.com/rickalday"/>
+      <link label="Buy me a Coffee" url="https://buymeacoffee.com/rickalday"/>
+    </page>
+  </pages>
+</site>

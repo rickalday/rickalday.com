@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rick Alday is a visual artist creating photography and graphic design inspired by people, places, street scenes, and overlooked details.">
+<meta name="author" content="Rick Alday">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#f4f3ef">
+<meta name="color-scheme" content="light">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>Rick Alday — Visual Artist</title>
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rick Alday">
+<meta property="og:title" content="Rick Alday — Visual Artist">
+<meta property="og:description" content="Photography and graphic design exploring people, places, architecture, and overlooked details.">
+<meta property="og:image" content="images/people/ely.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rick Alday — Visual Artist">
+<meta name="twitter:description" content="Photography and graphic design exploring people, places, architecture, and overlooked details.">
+<meta name="twitter:image" content="images/people/ely.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Oranienbaum&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top-mask"></div>
+  <main id="main"></main>
+
+  <a id="logo" href="index.html"></a>
+  <header id="header">
+    <nav><ul id="subnav"></ul></nav>
+    <ul id="right-nav"></ul>
+  </header>
+
+  <footer id="footer">
+    <div id="rep-link"></div>
+  </footer>
+
+  <div id="mobile-header">
+    <div class="gutter"><a id="m-logo" href="index.html"></a><div id="menu-btn"></div></div>
+  </div>
+  <div id="menu-wrapper">
+    <div id="menu-content">
+      <ul id="m-list"></ul>
+      <div id="m-rep"></div>
+    </div>
+  </div>
+
+  <div id="viewer" hidden>
+    <div id="viewer-content"><img id="viewer-img" alt=""></div>
+    <button class="zone zone-prev" aria-label="Previous"></button>
+    <button class="zone zone-next" aria-label="Next"></button>
+    <button class="arrow-bar --prev" id="v-prev" aria-label="Previous"><span></span></button>
+    <button class="arrow-bar --next" id="v-next" aria-label="Next"><span></span></button>
+    <p id="viewer-desc" role="dialog" aria-label="Gallery description" aria-hidden="true" tabindex="-1"></p>
+    <div id="viewer-header">
+      <p><span id="viewer-count"></span><span id="viewer-caption"></span></p>
+      <div class="header-right">
+        <button id="v-info" class="info-btn" aria-controls="viewer-desc" aria-expanded="false" aria-haspopup="dialog" title="Gallery description (i)">Info</button>
+        <button class="close-btn" id="v-close" aria-label="Close"><span></span></button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
